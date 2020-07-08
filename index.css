@@ -1,0 +1,1120 @@
+/* Navigation >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+body {
+    margin: 0 auto;
+}
+
+.navigation {
+    flex: 1;
+    padding-top: 20px;
+    padding-right: 160px;
+    padding-left: 160px;
+}
+.navbar {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img {
+    height : 70px;
+    width: 200px
+}
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    padding-left: 80px;
+    font-family: 'Avenir';
+}
+
+/* Header >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-right: 450px;
+    padding-left: 450px;
+    line-height: 1.5;
+}
+h1 {
+    font-family: "Avenir";
+    font-weight: normal;
+    text-align: center;
+    color: #4F4C4C;;
+    font-size: 40px;
+    letter-spacing: 0.8px;
+}
+
+/* input >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.input {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+input {
+    width: 420px;
+    height: 50px;
+    padding-left: 20px;
+    font-size: 14px;
+    border: 2px solid #eee;
+    border-radius: 5px;
+    display: flex;
+    font-family: "Avenir";
+    color: #898484;
+    justify-content: space-around;
+}
+.buttonEnd {
+    position: absolute;
+    margin-left: 130px;
+    height: 50px;
+    width: 180px;
+    margin-top: 3px;
+    border-radius: 5px;
+    background-color: #DA4E51;
+    border-color: #DA4E51;
+    color: #fff;
+    display: flex;
+    font-family: "Avenir";
+    font-size: 14px;
+    letter-spacing: 1px;
+    justify-content: space-around;
+}
+.sub {
+    color: #827F7F;
+    font-weight: 100;
+    text-align: center;
+    font-family: "Avenir";
+}
+
+/* First image >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.billGates {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.mainImage {
+    width: 80%;
+    height: 80%;
+}
+
+/* Path Image >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+.sliderSec {
+    margin-top: 90px;
+    width: 95%;
+    background-image: url("./assets/pathImage.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.conversationImage {
+    width: 60%;
+    height: 60%;
+}
+
+.sectionFeature {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 290px;
+    padding-top: 160px;
+    padding-right: 100px;
+    padding-left: 260px;
+}
+
+.feature {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature h2 {
+    font-size: 34px;
+}
+
+.feature p {
+    margin-top: -10px;
+    font-family: "Avenir";
+    color: #DA4E51;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.tabIndicators {
+    display: flex;
+    flex-direction: column;
+}
+/* 
+.wholeRightContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 150px;
+} */
+
+.para {
+    margin-top: 20px;
+}
+
+.divPara {
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.tabIndicators p {
+    font-family: "Avenir";
+    color: #858585;
+    font-weight: 100;
+    font-size: 19px;
+    letter-spacing: 1px;
+    padding-left: 20px;
+}
+
+#convers {
+    background-color: #D8ECF8;
+    width: 70%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+}
+
+.arrow {
+    width: 18px;
+    height: 15px;
+    padding-left: 20px;
+    margin-top: -10px
+}
+
+h2 {
+    font-family: "Avenir";
+    font-size: 40px;
+    width: 70%;
+    font-weight: normal;
+    color: #676363;
+}
+
+
+.testimonialsSec {
+    padding-top: 200px;
+    padding-bottom: 300px;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    justify-content: center;
+}
+.card {
+    height: auto;
+    width: 30%;
+    padding: 10px 100px;
+    margin: -130px 130px;
+    border: 1px solid #eee;
+    box-shadow: 5px 5px 30px 2px #eee;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cardPhoto {
+    width:110px;
+    height: 110px;
+    flex: 1;
+    border: 1px solid #eee;
+    border-radius: 50%;
+    margin-top: -70px;
+}
+/* .photo {
+    width: auto;
+    height: auto
+} */
+.content {
+    text-align: center;
+    line-height: 34px;
+    font-size: 22;
+    font-family: "Avenir";
+    color: #4A4A4A;
+}
+.quote {
+    position: absolute;
+    height: 70px;
+    width: 90px;
+    margin-left: -30px;
+    margin-bottom: -60px;
+}
+.name {
+    font-size: 18;
+    color: "#333";
+    font-family: "Avenir";
+    letter-spacing: 1px;
+    text-align: center;
+}
+.underName {
+    color: #5ECADF;
+    font-family: "Avenir";
+    letter-spacing: 1px;
+    text-align: center;
+}
+.leftArrow {
+    width: 40px;
+    height: 40px;
+}
+.rightArrow {
+    width: 40px;
+    height: 40px;
+}
+
+.titleJoin {
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.joinT {
+    font-family: "Avenir";
+    text-align: center;
+    font-size: 34px;
+    color: #4F4C4C;
+}
+/* hr {
+    width: 100px;
+    height: 1px;
+    border: 1px solid #5ECADF;
+    background-color: #5ECADF
+} */
+/* .ovalShape {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    margin-top: -280px;
+}
+.ovalPos {
+    float: right;
+    margin-right: 160px;
+} */
+
+.bottomSection {
+    margin-top: 100px;
+    width: 100%;
+    background-image: url("./assets/bottomSection.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.wholeContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+.leftContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.rightContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.leftImage {
+    width: 340px;
+    height: 260px;
+}
+.rightImage {
+    width: 340px;
+    height: 260px;
+}
+.contentLeft {
+    width: 50%;
+    text-align: center;
+    line-height: 34px;
+    font-family: "Avenir";
+    color: #4A4A4A;
+}
+.contentRight {
+    width: 50%;
+    text-align: center;
+    line-height: 34px;
+    font-family: "Avenir";
+    color: #4A4A4A;
+}
+.contentLeftHeader {
+    width: 50%;
+    text-align: center;
+    line-height: 34px;
+    font-size: 18px;
+    font-family: "Avenir";
+    color: #3D3C3C;
+    margin-top: 50px;
+}
+.contentRightHeader {
+    width: 50%;
+    text-align: center;
+    line-height: 34px;
+    font-size: 18px;
+    font-family: "Avenir";
+    color: #3D3C3C;
+    margin-top: 50px;
+}
+.contentLeftRed {
+    width: 50%;
+    text-align: center;
+    line-height: 34px;
+    font-size: 12px;
+    font-family: "Avenir";
+    color: #DA4E51;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.arrowBottom {
+    width: 12px;
+    height: 10px;
+    padding-left: 10px;
+    margin-top: -10px
+}
+/* .wholePathContent {
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    margin-left: 100px;
+} */
+.joinBottom {
+    font-family: "Avenir";
+    text-align: center;
+    font-size: 34px;
+    color: #4F4C4C;
+}
+
+
+.footerSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 80px;
+}
+.card2 {
+    width: 70%;
+    height: 100px;
+    margin-top: -50px;
+    background-image: linear-gradient(to right, #328CC1 , #5ECADF);
+    box-shadow: 5px 5px 30px 2px #eee;
+    padding: 20px 80px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.cardTextNew {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: "Roboto";
+}
+
+.buttonEndBottom {
+    height: 50px;
+    width: 180px;
+    border-radius: 5px;
+    background-color: #DA4E51;
+    border-color: #DA4E51;
+    color: #fff;
+    font-family: "Avenir";
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.horLineBlue {
+    width: 100px;
+    height: 1px;
+    border: 1px solid #5ECADF;
+    background-color: #5ECADF
+}
+
+.footerMain {
+    flex: 20;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px 300px 100px;
+}
+.footerLogo {
+    width: 120px;
+    height: 40px;
+}
+.logoAddress {
+    flex: 12;
+
+}
+
+.productFooter {
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.company {
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.social {
+    flex: 3;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.logoAddress p {
+    font-family: "Avenir";
+    font-size: 12px;
+}
+.productFooter p {
+    font-family: "Avenir";
+    font-size: 12px;
+}
+.company p {
+    font-family: "Avenir";
+    font-size: 12px;
+}
+.social p {
+    font-family: "Avenir";
+    font-size: 12px;
+}
+
+.bottomLine {
+    padding: 0px 300px 100px;
+}
+
+.borderL {
+    background-color: #eee;
+    border-color: #fff;
+}
+.copyright {
+    font-family: Avenir;
+    font-size: 12px;
+    margin-top: 100px;
+}
+
+
+
+@media all and (min-width: 600px) {
+    .navigation {
+        padding-top: 40px;
+        padding-right: 30px;
+        padding-left: 60px;
+    }
+    .navbar {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    li {
+        padding-left: 60px;
+    }
+    img {
+        height : 60px;
+        width: 170px
+    }
+
+    .header {
+        margin-top: 60px;
+        padding-right: 80px;
+        padding-left: 80px;
+    }
+    .input {
+        margin-top: 40px;
+    }
+    
+    .mainImage {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sliderSec {
+        width: 100%;
+    }
+    .sectionFeature {
+        padding-bottom: 100px;
+        padding-top: 100px;
+        padding-right: 10px;
+        padding-left: 100px;
+    }
+    
+    .feature {
+        margin-top: -10px;
+    }
+    
+    .feature h2 {
+        font-size: 24px;
+    }
+    .conversationImage {
+        width: 60%;
+        height: 60%;
+    }
+    .wholeRightContent {
+        margin-right: 50px;
+    }
+    
+    .tabIndicators p {
+        font-family: "Avenir";
+        color: #858585;
+        font-weight: 100;
+        font-size: 16px;
+        letter-spacing: 1px;
+        padding-left: 20px;
+    }
+    #convers {
+        width: 80%;
+    }
+    .paDiv {
+        padding: 50px;
+    }
+
+    .titleJoin {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+    .testimonialsSec {
+        padding-top: 140px;
+        padding-bottom: 200px;
+    }
+    .card {
+        width: 50%;
+        padding: 10px 100px;
+        margin: -180px 40px;
+    }
+    .cardPhoto {
+        width:130px;
+        height: 130px;
+        margin-top: -70px;
+    }
+    .content {
+        line-height: 1.8;
+    }
+    .underName {
+        text-align: center;
+        width: 100%
+    }
+
+    .footerMain{
+        padding: 0px 80px 60px
+    }
+    .bottomLine {
+        padding: 0px 80px 60px
+    }
+    .copyright {
+        font-family: Avenir;
+        font-size: 12px;
+        margin-top: 40px;
+    }
+
+    .bottomSection {
+        background-image: url("");
+    }
+    .wholePathContent {
+        margin-top: 50px;
+    }
+    .leftContent {
+        justify-content: center;
+        align-items: center;
+    }
+    .rightContent {
+        justify-content: center;
+        align-items: center;
+    }
+    .contentLeft {
+        width: 50%;
+        text-align: center;
+        line-height: 48px;
+        font-family: "Avenir";
+        color: #4A4A4A;
+    }
+    .contentRight {
+        width: 50%;
+        text-align: center;
+        line-height: 48px;
+        font-family: "Avenir";
+        color: #4A4A4A;
+    }
+    .contentLeftHeader {
+        width: 50%;
+        text-align: center;
+        line-height: 48px;
+        font-size: 18px;
+        font-family: "Avenir";
+        color: #3D3C3C;
+        margin-top: 50px;
+    }
+    .contentRightHeader {
+        width: 50%;
+        text-align: center;
+        line-height: 48px;
+        font-size: 18px;
+        font-family: "Avenir";
+        color: #3D3C3C;
+        margin-top: 50px;
+    }
+    .leftImage {
+        width: 400px;
+        height: 320px;
+    }
+    .rightImage {
+        width: 400px;
+        height: 320px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    body {
+        margin: 0 auto;
+    }
+    
+    .navigation {
+        flex: 1;
+        padding-top: 20px;
+        padding-right: 160px;
+        padding-left: 160px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        padding-right: 450px;
+        padding-left: 450px;
+        line-height: 1.5;
+    }
+
+    .mainImage {
+        width: 80%;
+        height: 80%;
+    }
+
+    .sliderSec {
+        margin-top: 90px;
+        width: 95%;
+        background-image: url("./assets/pathImage.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .conversationImage {
+        width: 60%;
+        height: 60%;
+    }
+    
+    .sectionFeature {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 220px;
+        padding-top: 160px;
+        padding-right: 100px;
+        padding-left: 260px;
+    }
+    
+    .feature {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .feature h2 {
+        font-size: 34px;
+    }
+    
+    .feature p {
+        margin-top: -10px;
+        font-family: "Avenir";
+        color: #DA4E51;
+        font-size: 14px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    .tabIndicators {
+        display: flex;
+        flex-direction: column;
+    }
+    /* 
+    .wholeRightContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-left: 150px;
+    } */
+    
+    .para {
+        margin-top: 20px;
+    }
+    
+    .divPara {
+        display: flex; 
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    
+    .tabIndicators p {
+        font-family: "Avenir";
+        color: #858585;
+        font-weight: 100;
+        font-size: 19px;
+        letter-spacing: 1px;
+        padding-left: 20px;
+    }
+    
+    #convers {
+        background-color: #D8ECF8;
+        width: 70%;
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 6px;
+    }
+    
+    .arrow {
+        width: 18px;
+        height: 15px;
+        padding-left: 20px;
+        margin-top: -10px
+    }
+
+    .testimonialsSec {
+        padding-top: 200px;
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .card {
+        height: auto;
+        width: 30%;
+        padding: 10px 100px;
+        margin: -130px 130px;
+        border: 1px solid #eee;
+        box-shadow: 5px 5px 30px 2px #eee;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .cardPhoto {
+        width:110px;
+        height: 110px;
+        flex: 1;
+        border: 1px solid #eee;
+        border-radius: 50%;
+        margin-top: -70px;
+    }
+    /* .photo {
+        width: auto;
+        height: auto
+    } */
+    .content {
+        text-align: center;
+        line-height: 34px;
+        font-size: 22;
+        font-family: "Avenir";
+        color: #4A4A4A;
+    }
+    .quote {
+        position: absolute;
+        height: 70px;
+        width: 90px;
+        margin-left: -30px;
+        margin-bottom: -60px;
+    }
+    .name {
+        font-size: 18;
+        color: "#333";
+        font-family: "Avenir";
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .underName {
+        color: #5ECADF;
+        font-family: "Avenir";
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .leftArrow {
+        width: 40px;
+        height: 40px;
+    }
+    .rightArrow {
+        width: 40px;
+        height: 40px;
+    }
+
+    h2 {
+        font-family: "Avenir";
+        font-size: 40px;
+        width: 70%;
+        font-weight: normal;
+        color: #676363;
+    }
+    .titleJoin {
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+    .joinT {
+        font-family: "Avenir";
+        text-align: center;
+        font-size: 34px;
+        color: #4F4C4C;
+    }
+
+    .bottomSection {
+        margin-top: 100px;
+        width: 100%;
+        background-image: url("./assets/bottomSection.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .wholeContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 200px;
+    }
+    .leftContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-end;
+    }
+    .rightContent {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .leftImage {
+        width: 340px;
+        height: 260px;
+    }
+    .rightImage {
+        width: 340px;
+        height: 260px;
+    }
+    .contentLeft {
+        width: 50%;
+        text-align: center;
+        line-height: 34px;
+        font-family: "Avenir";
+        color: #4A4A4A;
+    }
+    .contentRight {
+        width: 50%;
+        text-align: center;
+        line-height: 34px;
+        font-family: "Avenir";
+        color: #4A4A4A;
+    }
+    .contentLeftHeader {
+        width: 50%;
+        text-align: center;
+        line-height: 34px;
+        font-size: 18px;
+        font-family: "Avenir";
+        color: #3D3C3C;
+        margin-top: 50px;
+    }
+    .contentRightHeader {
+        width: 50%;
+        text-align: center;
+        line-height: 34px;
+        font-size: 18px;
+        font-family: "Avenir";
+        color: #3D3C3C;
+        margin-top: 50px;
+    }
+    .contentLeftRed {
+        width: 50%;
+        text-align: center;
+        line-height: 34px;
+        font-size: 12px;
+        font-family: "Avenir";
+        color: #DA4E51;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .arrowBottom {
+        width: 12px;
+        height: 10px;
+        padding-left: 10px;
+        margin-top: -10px
+    }
+    .wholePathContent {
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+        margin-left: 100px;
+    }
+    .joinBottom {
+        font-family: "Avenir";
+        text-align: center;
+        font-size: 34px;
+        color: #4F4C4C;
+    }
+    
+    
+    .footerSection {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        align-items: center;
+        padding-bottom: 80px;
+    }
+    .paDiv {
+        padding: 100px;
+    }
+    .card2 {
+        width: 70%;
+        height: 100px;
+        margin-top: -50px;
+        background-image: linear-gradient(to right, #328CC1 , #5ECADF);
+        box-shadow: 5px 5px 30px 2px #eee;
+        padding: 20px 80px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .cardTextNew {
+        color: #fff;
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Roboto";
+    }
+    
+    .buttonEndBottom {
+        height: 50px;
+        width: 180px;
+        border-radius: 5px;
+        background-color: #DA4E51;
+        border-color: #DA4E51;
+        color: #fff;
+        font-family: "Avenir";
+        font-size: 14px;
+        letter-spacing: 1px;
+    }
+    
+    .horLineBlue {
+        width: 100px;
+        height: 1px;
+        border: 1px solid #5ECADF;
+        background-color: #5ECADF
+    }
+    
+    .footerMain {
+        flex: 20;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 0px 300px 100px;
+    }
+    .footerLogo {
+        width: 120px;
+        height: 40px;
+    }
+    .logoAddress {
+        flex: 12;
+    
+    }
+    
+    .productFooter {
+        flex: 3;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .company {
+        flex: 3;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .social {
+        flex: 3;
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    
+    .logoAddress p {
+        font-family: "Avenir";
+        font-size: 12px;
+    }
+    .productFooter p {
+        font-family: "Avenir";
+        font-size: 12px;
+    }
+    .company p {
+        font-family: "Avenir";
+        font-size: 12px;
+    }
+    .social p {
+        font-family: "Avenir";
+        font-size: 12px;
+    }
+    
+    .bottomLine {
+        padding: 0px 300px 100px;
+    }
+    
+    .borderL {
+        background-color: #eee;
+        border-color: #fff;
+    }
+    .copyright {
+        font-family: Avenir;
+        font-size: 12px;
+        margin-top: 100px;
+    }
+    
+}
+/* 
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0 auto;
+    }
+    
+    .navigation {
+        padding-top: 40px;
+        padding-right: 30px;
+        padding-left: 60px;
+    }
+    
+} */
+
