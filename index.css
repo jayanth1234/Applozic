@@ -82,6 +82,8 @@ input {
     font-size: 14px;
     letter-spacing: 1px;
     justify-content: space-around;
+    text-align: center;
+    cursor: pointer;
 }
 .sub {
     color: #827F7F;
@@ -169,6 +171,7 @@ input {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
+    cursor: pointer;
 }
 
 .tabIndicators p {
@@ -178,6 +181,7 @@ input {
     font-size: 19px;
     letter-spacing: 1px;
     padding-left: 20px;
+    cursor: pointer;
 }
 
 #convers {
@@ -379,6 +383,7 @@ h2 {
     color: #DA4E51;
     font-weight: bold;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .arrowBottom {
@@ -438,6 +443,8 @@ h2 {
     font-family: "Avenir";
     font-size: 14px;
     letter-spacing: 1px;
+    cursor: pointer;
+    text-align: center;
 }
 
 .horLineBlue {
@@ -457,6 +464,7 @@ h2 {
 .footerLogo {
     width: 120px;
     height: 40px;
+    cursor: pointer;
 }
 .logoAddress {
     flex: 12;
@@ -492,14 +500,17 @@ h2 {
 .productFooter p {
     font-family: "Avenir";
     font-size: 14px;
+    cursor: pointer;
 }
 .company p {
     font-family: "Avenir";
     font-size: 14px;
+    cursor: pointer;
 }
 .social p {
     font-family: "Avenir";
     font-size: 14px;
+    cursor: pointer;
 }
 
 .bottomLine {
@@ -532,6 +543,7 @@ h2 {
     }
     li {
         padding-left: 60px;
+        cursor: pointer;
     }
     img {
         height : 60px;
@@ -550,6 +562,9 @@ h2 {
     .mainImage {
         width: 100%;
         height: 100%;
+    }
+    .buttonEnd {
+        cursor: pointer;
     }
 
     .sliderSec {
@@ -722,7 +737,7 @@ h2 {
       }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1400px) {
     body {
         margin: 0 auto;
     }
@@ -741,6 +756,10 @@ h2 {
         padding-right: 450px;
         padding-left: 450px;
         line-height: 1.5;
+    }
+
+    .li {
+        cursor: pointer;
     }
 
     .mainImage {
@@ -788,6 +807,10 @@ h2 {
         text-transform: uppercase;
         letter-spacing: 1px;
     }
+
+    .buttonEnd{
+        cursor: pointer;
+    }
     
     .tabIndicators {
         display: flex;
@@ -825,6 +848,7 @@ h2 {
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start;
+        cursor: pointer;
     }
     
     .tabIndicators p {
@@ -1033,6 +1057,7 @@ h2 {
         color: #DA4E51;
         font-weight: bold;
         text-transform: uppercase;
+        cursor: pointer;
     }
     
     .arrowBottom {
@@ -1095,6 +1120,8 @@ h2 {
         font-family: "Avenir";
         font-size: 14px;
         letter-spacing: 1px;
+        cursor: pointer;
+        text-align: center;
     }
     
     .horLineBlue {
@@ -1114,6 +1141,7 @@ h2 {
     .footerLogo {
         width: 120px;
         height: 40px;
+        cursor: pointer;
     }
     .logoAddress {
         flex: 12;
@@ -1187,4 +1215,5 @@ h2 {
     }
     
 } */
+
 
