@@ -68,6 +68,7 @@ input {
     justify-content: space-around;
 }
 .buttonEnd {
+    position: absolute;
     margin-left: 130px;
     height: 50px;
     width: 180px;
@@ -562,6 +563,7 @@ h2 {
         height: 100%;
     }
     .buttonEnd {
+        position: absolute;
         margin-left: 130px;
         height: 50px;
         width: 180px;
@@ -821,6 +823,7 @@ h2 {
     }
 
     .buttonEnd {
+        position: absolute;
         margin-left: 130px;
         height: 50px;
         width: 180px;
