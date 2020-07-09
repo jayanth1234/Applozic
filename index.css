@@ -81,8 +81,6 @@ input {
     font-family: "Avenir";
     font-size: 14px;
     letter-spacing: 1px;
-    justify-content: space-around;
-    text-align: center;
     cursor: pointer;
 }
 .sub {
@@ -564,6 +562,20 @@ h2 {
         height: 100%;
     }
     .buttonEnd {
+        position: absolute;
+        margin-left: 130px;
+        height: 50px;
+        width: 180px;
+        margin-top: 3px;
+        border-radius: 5px;
+        background-color: #DA4E51;
+        border-color: #DA4E51;
+        color: #fff;
+        display: flex;
+        font-family: "Avenir";
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-align: center;
         cursor: pointer;
     }
 
@@ -808,7 +820,21 @@ h2 {
         letter-spacing: 1px;
     }
 
-    .buttonEnd{
+    .buttonEnd {
+        position: absolute;
+        margin-left: 130px;
+        height: 50px;
+        width: 180px;
+        margin-top: 3px;
+        border-radius: 5px;
+        background-color: #DA4E51;
+        border-color: #DA4E51;
+        color: #fff;
+        display: flex;
+        font-family: "Avenir";
+        font-size: 14px;
+        letter-spacing: 1px;
+        text-align: center;
         cursor: pointer;
     }
     
