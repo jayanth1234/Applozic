@@ -182,7 +182,7 @@ input {
 
 #convers {
     background-color: #D8ECF8;
-    width: 70%;
+    width: 80%;
     padding-left: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -268,10 +268,12 @@ h2 {
 .leftArrow {
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 .rightArrow {
     width: 40px;
     height: 40px;
+    cursor: pointer;
 }
 
 .titleJoin {
@@ -489,15 +491,15 @@ h2 {
 }
 .productFooter p {
     font-family: "Avenir";
-    font-size: 12px;
+    font-size: 14px;
 }
 .company p {
     font-family: "Avenir";
-    font-size: 12px;
+    font-size: 14px;
 }
 .social p {
     font-family: "Avenir";
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .bottomLine {
@@ -568,11 +570,11 @@ h2 {
         font-size: 24px;
     }
     .conversationImage {
-        width: 60%;
-        height: 60%;
+        width: 400px;
+        height: 400px;
     }
     .wholeRightContent {
-        margin-right: 50px;
+        margin-right: 100px;
     }
     
     .tabIndicators p {
@@ -582,6 +584,10 @@ h2 {
         font-size: 16px;
         letter-spacing: 1px;
         padding-left: 20px;
+    }
+    .logoAddress p {
+        font-family: "Avenir";
+        font-size: 6px;
     }
     #convers {
         width: 80%;
@@ -604,6 +610,21 @@ h2 {
         padding: 10px 100px;
         margin: -180px 40px;
     }
+
+    .fade {
+        animation: slideMe 1s ease-in-out;
+    }
+
+    @keyframes slideMe {
+        0% {
+            transform: translateX(-40px);
+            opacity: 0.3
+        }
+        100% {
+            transform: translateX(0px);
+        }
+      }
+
     .cardPhoto {
         width:130px;
         height: 130px;
@@ -625,7 +646,7 @@ h2 {
     }
     .copyright {
         font-family: Avenir;
-        font-size: 12px;
+        font-size: 16px;
         margin-top: 40px;
     }
 
@@ -649,6 +670,7 @@ h2 {
         line-height: 48px;
         font-family: "Avenir";
         color: #4A4A4A;
+        font-size: 22px;
     }
     .contentRight {
         width: 50%;
@@ -656,6 +678,7 @@ h2 {
         line-height: 48px;
         font-family: "Avenir";
         color: #4A4A4A;
+        font-size: 22px;
     }
     .contentLeftHeader {
         width: 50%;
@@ -683,6 +706,20 @@ h2 {
         width: 400px;
         height: 320px;
     }
+    .dot {
+        cursor: pointer;
+        height: 12px;
+        width: 12px;
+        margin: 40px 10px 0px;
+        border: 1px solid #5ECADF;
+        border-radius: 50%;
+        display: inline-block;
+        /* transition: background-color 0.6s ease; */
+      }
+      .active, .dot:hover {
+        background-color: #5ECADF;
+        transition: background-color 0.6s ease;
+      }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -695,7 +732,7 @@ h2 {
         padding-top: 20px;
         padding-right: 160px;
         padding-left: 160px;
-    }
+    }    
 
     .header {
         display: flex;
@@ -720,8 +757,8 @@ h2 {
     }
     
     .conversationImage {
-        width: 60%;
-        height: 60%;
+        width: 700px;
+        height: 600px;
     }
     
     .sectionFeature {
@@ -764,6 +801,20 @@ h2 {
         align-items: flex-start;
         margin-left: 150px;
     } */
+    .dot {
+        cursor: pointer;
+        height: 10px;
+        width: 10px;
+        margin: 0 12px;
+        border: 1px solid #5ECADF;
+        border-radius: 50%;
+        display: inline-block;
+        /* transition: background-color 0.6s ease; */
+      }
+      .active, .dot:hover {
+        background-color: #5ECADF;
+        transition: background-color 0.6s ease;
+      }
     
     .para {
         margin-top: 20px;
@@ -793,7 +844,7 @@ h2 {
         padding-bottom: 10px;
         border-radius: 6px;
     }
-    
+
     .arrow {
         width: 18px;
         height: 15px;
@@ -821,6 +872,21 @@ h2 {
         justify-content: center;
         align-items: center;
     }
+
+    .fade {
+        animation: slideMe 1s ease-in-out;
+    }
+
+    @keyframes slideMe {
+        0% {
+            transform: translateX(-100px);
+            opacity: 0.3
+        }
+        100% {
+            transform: translateX(0px);
+        }
+      }
+
     .cardPhoto {
         width:110px;
         height: 110px;
@@ -863,10 +929,12 @@ h2 {
     .leftArrow {
         width: 40px;
         height: 40px;
+        cursor: pointer;
     }
     .rightArrow {
         width: 40px;
         height: 40px;
+        cursor: pointer;
     }
 
     h2 {

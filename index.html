@@ -44,7 +44,21 @@
     <div class="sliderSec">
         <!-- <img class="backgroundImage" src="./assets/pathImage.png"/> -->
         <div class="sectionFeature">
-            <img class="conversationImage" src="./assets/conversation.png" />
+            <div class="mySlides">
+                <img class="conversationImage" src="./assets/conversation.png" />
+            </div>
+            <div class="mySlides">
+                <img class="conversationImage" src="./assets/bot@2x.png" />
+            </div>
+            <div class="mySlides">
+                <img class="conversationImage" src="./assets/agent@2x.png" />
+            </div>
+            <div class="mySlides">
+                <img class="conversationImage" src="./assets/faq@2x.png" />
+            </div>
+            <div class="mySlides">
+                <img class="conversationImage" src="./assets/integration@2x.png" />
+            </div>
 
             <div class="wholeRightContent">
                 <div class="feature">
@@ -56,11 +70,11 @@
                 </div>
 
                 <div class="tabIndicators">
-                    <p id="convers">Conversations</p>
-                    <p>Bot integration</p>
-                    <p>Agent wise reporting</p>
-                    <p>FAQs</p>
-                    <p>Integrations</p>
+                    <p class="convers">Conversations</p>
+                    <p class="convers">Bot integration</p>
+                    <p class="convers">Agent wise reporting</p>
+                    <p class="convers">FAQs</p>
+                    <p class="convers">Integrations</p>
                 </div>
             </div>
 
@@ -77,11 +91,11 @@
     </div>
 
     <div class="testimonialsSec" style="margin-top: 40px;">
-        <a>
+        <a class="prev" onclick="plusSlides(-1)">
             <img class="leftArrow" src="assets/arrowLeft.png" />
         </a>
-        <div class="card">
-            <div>
+        <div class="card fade">
+            <div style="text-align: center;">
                 <img class="cardPhoto" src="./assets/mark@2x.png" />
             </div>
             <p class="name">Mark Zuckerburg</p>
@@ -96,10 +110,48 @@
                 </p>
             </div>
         </div>
-        <a>
+        <div class="card fade">
+            <div style="text-align: center;">
+                <img class="cardPhoto" src="./assets/another@2x.png" />
+            </div>
+            <p class="name">Mark Zuckerburg</p>
+            <p class="underName">Facebook</p>
+            <div class="para">
+                <img class="quote" src="./assets/“@2x.png" />
+                <p class="content">
+                    I just wanted to share a quick note and let you know that you guys do a really good job.
+                    I’m glad I decided to work with you. It’s really great how easy your websites are to update and
+                    manage.
+                    I never have any problem at all.
+                </p>
+            </div>
+        </div>
+        <div class="card fade">
+            <div style="text-align: center;">
+                <img class="cardPhoto" src="./assets/zuckNext@2x.png" />
+            </div>
+            <p class="name">Mark Zuckerburg</p>
+            <p class="underName">Facebook</p>
+            <div class="para">
+                <img class="quote" src="./assets/“@2x.png" />
+                <p class="content">
+                    I just wanted to share a quick note and let you know that you guys do a really good job.
+                    I’m glad I decided to work with you. It’s really great how easy your websites are to update and
+                    manage.
+                    I never have any problem at all.
+                </p>
+            </div>
+        </div>
+        <a class="next" onclick="plusSlides(1)">
             <img class="rightArrow" src="assets/arrowRight.png" />
         </a>
     </div>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
 
     <div class="bottomSection">
         <!-- <img class="backgroundImage" src="./assets/pathImage.png"/> -->
@@ -186,24 +238,62 @@
     </div>
 
     <script type="text/javascript">
-        var slide_index = 1;
-        displaySlides(slide_index);
-        function nextSlide(n) {
-            displaySlides(slide_index += n);
-        }
-        function currentSlide(n) {
-            displaySlides(slide_index = n);
-        }
-        function displaySlides(n) {
+        var slideIndex = 0;
+        var tabIndex = 0
+        showSlides();
+        showTabs();
+
+        function showSlides() {
             var i;
-            var slides = document.getElementsByClassName("showSlide");
-            if (n > slides.length) { slide_index = 1 }
-            if (n < 1) { slide_index = slides.length }
+            var slides = document.getElementsByClassName("mySlides");
             for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";
+                slides[i].style.display = "none";  
             }
-            slides[slide_index - 1].style.display = "block";
-        }  
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            slides[slideIndex-1].style.display = "block";  
+            setTimeout(showSlides, 5000); // Change image every 2 seconds
+        }
+
+        function showTabs() {
+            var j;
+            var tabs = document.getElementsByClassName("convers");
+            for (j = 0; j < tabs.length; j++){
+                tabs[j].removeAttribute("id")
+            }
+            tabIndex++;
+            if(tabIndex > tabs.length) {tabIndex = 1}
+            tabs[tabIndex-1].setAttribute("id", "convers")
+            setTimeout(showTabs, 5000)
+        }
+
+        // SLIDER >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+        var textimonialIndex = 1;
+        showSlidesTestimonial(textimonialIndex);
+
+        function plusSlides(n) {
+            showSlidesTestimonial(textimonialIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlidesTestimonial(textimonialIndex = n);
+        }
+
+        function showSlidesTestimonial(n) {
+            var j;
+            var slidesTest = document.getElementsByClassName("card");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slidesTest.length) {textimonialIndex = 1}
+            if (n < 1) {textimonialIndex = slidesTest.length}
+            for (j = 0; j < slidesTest.length; j++) {
+                slidesTest[j].style.display = "none";
+            }
+            for (j = 0; j < dots.length; j++) {
+                dots[j].className = dots[j].className.replace(" active", "");
+            }
+            slidesTest[textimonialIndex-1].style.display = "block";
+            dots[textimonialIndex-1].className += " active";
+        }
     </script>
 
 </body>
