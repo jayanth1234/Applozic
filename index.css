@@ -996,6 +996,7 @@ h2 {
         line-height: 34px;
         font-family: "Avenir";
         color: #4A4A4A;
+        font-size: 16px;
     }
     .contentRight {
         width: 50%;
@@ -1003,6 +1004,7 @@ h2 {
         line-height: 34px;
         font-family: "Avenir";
         color: #4A4A4A;
+        font-size: 16px;
     }
     .contentLeftHeader {
         width: 50%;
