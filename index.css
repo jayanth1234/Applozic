@@ -82,6 +82,7 @@ input {
     font-size: 14px;
     letter-spacing: 1px;
     cursor: pointer;
+    justify-content: inherit;
 }
 .sub {
     color: #827F7F;
@@ -576,6 +577,7 @@ h2 {
         font-size: 14px;
         letter-spacing: 1px;
         text-align: center;
+        justify-content: inherit;
         cursor: pointer;
     }
 
@@ -835,6 +837,7 @@ h2 {
         font-size: 14px;
         letter-spacing: 1px;
         text-align: center;
+        justify-content: inherit;
         cursor: pointer;
     }
     
